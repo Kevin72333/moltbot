@@ -1,0 +1,5 @@
+{
+  "build": {
+    "prepare_command": "apt update && apt install -y build-essential curl file git procps && /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
+  }
+}
